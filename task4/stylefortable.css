@@ -1,0 +1,53 @@
+tr{
+    font-family: Arial;
+    font-size: medium;
+    text-align: center;
+    border: 1px solid rgb(101, 101, 101);
+    border-radius: 10px;
+}
+
+th {
+    border: 1px solid rgb(101, 101, 101);
+    border-radius: 10px;
+}
+
+td{
+    text-align: center;
+    font-family:'Calibri';
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+
+table{
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1, h3{
+    text-align: center;
+    font-family: 'Cochin' ;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.margins{
+  width: 50%;               
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(176, 149, 112);
+
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 12px;
+}
