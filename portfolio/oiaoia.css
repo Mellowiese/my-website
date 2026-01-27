@@ -1,0 +1,64 @@
+.highlight-img{
+ height: 300px;
+ width: 300px;
+ border-radius: 50% !important;
+ object-fit: cover;
+ display: block;
+ margin: 0 auto;
+ padding-top: 10px !important;
+ padding-bottom: 10px !important;
+}
+
+#home {
+    padding-top: 150px !important;
+    padding-bottom: 80px !important;
+    background-image: linear-gradient( rgb(0, 71, 171), rgb(135, 206, 235))
+}
+
+#about {
+ text-align: center !important;
+ padding-top: 120px !important;
+ padding-bottom: 80px !important;
+}
+
+#skills {
+    padding-top: 50px !important;
+    padding-bottom: 80px !important;  
+}
+
+#projects {
+   padding-top: 80px !important;
+   padding-bottom: 80px !important;  
+}
+
+#projects .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects .card-img-top {
+    height: 250px; 
+    object-fit: cover; 
+}
+
+#projects .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects .card-text {
+    flex-grow: 1;
+}
+
+#contact {
+   background-image: linear-gradient(rgb(104, 104, 104),rgb(17, 17, 21));
+}
+
+hr {
+  border: none;
+  border-bottom: 7px dotted #2f3d9c;
+  width: 80%;
+  margin: 20px auto; 
+}

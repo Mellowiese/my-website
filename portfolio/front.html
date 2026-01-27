@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="oiaoia.css">
+</head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MyPortfolio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <section id="home" class="text-white text-center p-5 py-6">
+        <div class="container">
+            <h1>Hello, I'm Erin!</h1>
+            <p class="lead">Web Developer | CS Student</p>
+            <a href="#projects" class="btn btn-light">View My Work</a>
+        </div>
+    </section>
+ 
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+            <div class="col-lg-6">
+            <img src= "imagess/idonthaveAgoodPIC.jpg" class="rounded highlight-img">
+            </div>
+            <div class="col-lg-6">
+                <h2>About Me</h2>
+                <p>
+                    Hello, my name is Erin Grace Onggo. A 2nd year Computer Science student from the University of Mindanao who is currently studying code for web development.   
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="skills">
+    <div class="container text-center">
+
+        <h2 class="mb-5">My Skills</h2>
+
+        <div class="row justify-content-center align-items-center">
+            
+            <div class="col-lg-1 col-md-2 col-3 mx-3">
+                <img src="imagess/htmlPIC.png" class="img-fluid rounded">
+            </div>
+
+            <div class="col-lg-1 col-md-2 col-3 mx-3">
+                <img src="imagess/cssPIC.png" class="img-fluid rounded">
+            </div>
+
+            <div class="col-lg-1 col-md-2 col-3 mx-3">
+                <img src="imagess/BOOT.png" class="img-fluid rounded">
+            </div>
+
+            <div class="col-lg-1 col-md-1 col-3 mx-3">
+                <img src="imagess/snek.png" class="img-fluid rounded">
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <hr>
+
+    <section id="projects" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4"> My Projects</h2>
+
+
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="imagess/Log-in.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">ManMade Coffee: Proposed Automated Ordering System and Inventory Management System.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="imagess/project2.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Meikmeik: A Python Study Tracker.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="imagess/project3.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">A Very Short HTML Biography.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="text-white py-5">
+        <div class="container text-center">
+            <h2>Contacts</h2>
+            <br>
+            <p>Email: e.onggo.553656@umindanao.edu.ph</p>
+            <p>GitHub: <a href="https://github.com/Mellowiese" >Click here</a>.</p>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 bg-secondary text-white">
+        <p class="mb-0">@ 2026 My Portfolio</p>
+    </footer>
+  </body>
+</html>
